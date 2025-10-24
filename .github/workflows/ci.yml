@@ -20,5 +20,5 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: cypress-videos
-          path: cypress/videos
+          path: cypress/video
           if-no-files-found: ignore # 'warn' or 'error' are also available, defaults to `warn`
